@@ -18,23 +18,23 @@ function calculateGrade() {
             if (!isNaN(marks)) {
                 if (marks >= 90) {
                     myCredit = 10;
-                } else if (marks >= 80 && marks < 89) {
+                } else if (marks >= 80 && marks <= 89) {
                     myCredit = 9;
-                } else if (marks >= 70 && marks < 79) {
+                } else if (marks >= 70 && marks <= 79) {
                     myCredit = 8;
-                } else if (marks >= 60 && marks < 69) {
+                } else if (marks >= 60 && marks <= 69) {
                     myCredit = 7;
-                } else if (marks >= 50 && marks < 59) {
+                } else if (marks >= 50 && marks <= 59) {
                     myCredit = 6;
-                } else if (marks >= 40 && marks < 49) {
+                } else if (marks >= 40 && marks <= 49) {
                     myCredit = 5;
-                } else if (marks >= 30 && marks < 39) {
+                } else if (marks >= 30 && marks <= 39) {
                     myCredit = 4;
-                } else if (marks >= 20 && marks < 29) {
+                } else if (marks >= 20 && marks <= 29) {
                     myCredit = 3;
-                } else if (marks >= 10 && marks < 19) {
+                } else if (marks >= 10 && marks <= 19) {
                     myCredit = 2;
-                } else if (marks >= 1 && marks < 9) {
+                } else if (marks >= 1 && marks <= 9) {
                     myCredit = 1;
                 }// Add more conditions as needed
 
